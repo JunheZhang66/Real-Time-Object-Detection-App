@@ -20,9 +20,12 @@ It will output the path of the file inside of csv_folder
 
 It will output the path of all the images
 
-4. Then we paste the path to 'converting-annotations.py' , 'creating-train-and-test-txt-files.py' , 'creating-files-data-and-name.py'
+4.At the directory, mannually write a .txt file which includes all names of category in the dataset, each categroy is in a new line, no need to add underscore if 
+the class name has two word.
 
-5. Then run 'converting-annotations.py', 'creating-train-and-test-txt-files.py', 'creating-files-data-and-name.py' in this order
+5. Then we paste the path to 'converting-annotations.py' , 'creating-train-and-test-txt-files.py' , 'creating-files-data-and-name.py'
+
+6. Then run 'converting-annotations.py', 'creating-train-and-test-txt-files.py', 'creating-files-data-and-name.py' in this order
 
 
 ## Training Network
