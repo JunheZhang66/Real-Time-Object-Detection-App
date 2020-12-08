@@ -27,6 +27,8 @@ the class name has two word.
 
 6. Then run 'converting-annotations.py', 'creating-train-and-test-txt-files.py', 'creating-files-data-and-name.py' in this order
 
+7. Finally, copy the .data file to directory cfg under darknet
+
 
 ## Training Network
 
