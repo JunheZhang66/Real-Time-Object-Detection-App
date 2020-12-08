@@ -32,11 +32,12 @@ It will output the path of all the images
 ## Generating Final Result
 
 For processing image:
-1. Open process_image_video.py, scroll down to line 130.
+1. Open process_image_video.py, scroll down to line 130 image_main()
 2. Set img_dir = absolute path to the image file you want to process
 3. Set label = absolute path to the classes.names file you created during data preprocessing (classes.names)
 4. Set cfg_dir = absolute path to the network structure file (Example: yolov3-custom_train.cfg)
 5. Set weights_dir = absolute path to the best weights file you get during training network (Example: yolov3-custom_train_last.weights)
 
 For processing video:
-1. Same process as for image
+1. Open process_image_video.py, scroll down to line 170 video_main()
+2. Same process as for image
