@@ -1,5 +1,13 @@
 ## Data Preprocessing
+#Download the dataset
+First, go to the directory where you install the OIDv4_ToolKit and run this command in terminal:
 
+'python3 main.py downloader --classes Car Bicycle_wheel Bus Traffic_light Jeans Laptop Person --type_csv train  -- multiclasses 1 --limit 1000'
+
+The '--classes'' specify the category you wanto to use, add underscore if the class has two words. '--limit 1000' specify downloading 1000 instances 
+for each category
+
+After completing the downloading, 
 
 
 ## Training Network
