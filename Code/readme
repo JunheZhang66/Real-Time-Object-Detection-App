@@ -1,0 +1,46 @@
+## Data Preprocessing
+#Download the dataset
+1. Go to the directory where you install the OIDv4_ToolKit and run this command in terminal:
+
+'python3 main.py downloader --classes Car Bicycle_wheel Bus Traffic_light Jeans Laptop Person --type_csv train  -- multiclasses 1 --limit 1000'
+
+The '--classes'' specify the category you wanto to use, add underscore if the class has two words. '--limit 1000' specify downloading 1000 instances 
+for each category
+
+2. After completing the downloading, (if this is the first time you download), you will see a floder called 'OID'. Inside of it, there are two subdirectory, 
+csv_folder, Dataset. Now we need copy 'getting-full-path.py' to the csv_folder directory and run command
+
+'python3 getting-full-path.py' 
+
+It will output the path of the file inside of csv_folder 
+
+3. Then we copy 'getting-full-path.py' to the 'Dataset/train/Car_Bicycle wheel_Bus_Traffic light_Jeans_Laptop_Person' folder where you store your images, and run 
+
+'python3 getting-full-path.py' 
+
+It will output the path of all the images
+
+4.At the directory, mannually write a .txt file which includes all names of category in the dataset, each categroy is in a new line, no need to add underscore if 
+the class name has two word.
+
+5. Then we paste the path to 'converting-annotations.py' , 'creating-train-and-test-txt-files.py' , 'creating-files-data-and-name.py'
+
+6. Then run 'converting-annotations.py', 'creating-train-and-test-txt-files.py', 'creating-files-data-and-name.py' in this order
+
+
+## Training Network
+
+
+
+## Generating Final Result
+
+For processing image:
+1. Open process_image_video.py, scroll down to line 130 image_main()
+2. Set img_dir = absolute path to the image file you want to process
+3. Set label = absolute path to the classes.names file you created during data preprocessing (classes.names)
+4. Set cfg_dir = absolute path to the network structure file (Example: yolov3-custom_train.cfg)
+5. Set weights_dir = absolute path to the best weights file you get during training network (Example: yolov3-custom_train_last.weights)
+
+For processing video:
+1. Open process_image_video.py, scroll down to line 170 video_main()
+2. Same process as for image
