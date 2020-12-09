@@ -3,7 +3,7 @@
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc27qUvAtzOlHVcvO_s8vMCDVK0MYFFQqRUw&usqp=CAU" alt="Paris" class="center">
 
-<h1>The Step by Step instruction is in data/readme.txt </h1>
+<h1>The Step by Step instruction is in code/readme.txt </h1>
 
 Introduction  
 In this project we will: 
