@@ -1,0 +1,9 @@
+## Training Network 
+1. setting up the configuration
+   download the file yolov3-custom_train.cfg and move it to cfg folder inside root Darknet derectory
+2. navigate to root directory where Darknet framework was installed and type in following command:
+   ./darknet detector train cfg/custom_data.data cfg/yolov3-custom_train.cfg backup/yolov3-custom_train_final.weights -dont_show
+3. calculate mAP to find the best weight 
+   In the same terminal, type in following command for each saved weight, for example, to calculate mAP for weight at iteration 8000
+   ./darknet detector map cfg/custom_data.data cfg/yolov3-custom_train.cfg backup/yolov3-custom_train_8000.weights
+   After calculation, find calculated mAP at the last lines. The weight that have the biggest mAP is best weight.
