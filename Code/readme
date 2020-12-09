@@ -1,4 +1,4 @@
-## Data Preprocessing
+## Data Preprocessing - Hao Heng
 #Download the dataset
 1. Go to the directory where you install the OIDv4_ToolKit and run this command in terminal:
 
@@ -30,11 +30,11 @@ the class name has two word.
 7. Finally, copy the .data file to directory cfg under darknet
 
 
-## Training Network
+## Training Network - Gong Ze
 
 
 
-## Generating Final Result
+## Generating Final Result - Junhe Zhang
 
 For processing image:
 1. Open process_image_video.py, scroll down to line 130 image_main()
