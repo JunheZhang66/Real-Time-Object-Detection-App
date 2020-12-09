@@ -7,3 +7,5 @@
    In the same terminal, type in following command for each saved weight, for example, to calculate mAP for weight at iteration 8000
    ./darknet detector map cfg/custom_data.data cfg/yolov3-custom_train.cfg backup/yolov3-custom_train_8000.weights
    After calculation, find calculated mAP at the last lines. The weight that have the biggest mAP is best weight.
+
+I modified configuration file for this project, you can directly use it.
