@@ -1,4 +1,4 @@
-## Data Preprocessing
+## Data Preprocessing - Hao Heng
 #Download the dataset
 1. Go to the directory where you install the OIDv4_ToolKit and run this command in terminal:
 
@@ -27,8 +27,9 @@ the class name has two word.
 
 6. Then run 'converting-annotations.py', 'creating-train-and-test-txt-files.py', 'creating-files-data-and-name.py' in this order
 
+7. Finally, copy the .data file to directory cfg under darknet
 
-## Training Network
+## Training Network - Ze Gong
 1. setting up the configuration
    download the file yolov3-custom_train.cfg and move it to cfg folder inside root Darknet derectory
 2. navigate to root directory where Darknet framework was installed and type in following command:
@@ -38,7 +39,8 @@ the class name has two word.
    ./darknet detector map cfg/custom_data.data cfg/yolov3-custom_train.cfg backup/yolov3-custom_train_8000.weights
    After calculation, find calculated mAP at the last lines. The weight that have the biggest mAP is best weight.
 
-## Generating Final Result
+
+## Generating Final Result - Junhe Zhang
 
 For processing image:
 1. Open process_image_video.py, scroll down to line 130 image_main()
