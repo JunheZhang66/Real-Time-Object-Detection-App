@@ -26,8 +26,10 @@ In this project we will:
  - OpenCV  
  - Darknet
  - OS
+
+## Project Showcase
+![showcase](/Data/image/predictions.jpg)
  
-Yolo out performed other object detection frameworks:
-    <div style="width: 1000px; height: 1000px;">
+## Yolo out performed other object detection frameworks:
 <img style = "text-align: center; width: 800%; height: auto;" src="https://neilyongyangnie.files.wordpress.com/2018/11/screen-shot-2018-11-18-at-10-53-10-pm.png" />
-</div>
+
